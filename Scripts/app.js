@@ -12,6 +12,6 @@
      *@return int 
      */
     function randomNumber(seed){
-        
+        return Math.floor(Math.random() * seed + 1);
     }
 }());
